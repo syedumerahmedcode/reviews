@@ -9,9 +9,27 @@ const reviews=[
     text:
       "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
 },
-{},
-{},
-{}
+{
+  id: 2,
+  name: "",
+  job: "",
+  img: "",
+  text: "",
+},
+{
+  id: 3,
+  name: "",
+  job: "",
+  img: "",
+  text: "",  
+},
+{
+  id: 4,
+  name: "",
+  job: "",
+  img: "",
+  text: "",
+}
 
 
 ];
