@@ -52,5 +52,10 @@ let currentItem = 0;
 
 // load initial data
 window.addEventListener("DOMContentLoaded", function () {
-  console.log("Inisde the DOMContent loaded event.");
+  // console.log("Inisde the DOMContent loaded event.");
+  const item = reviews[currentItem];
+  img.src = item.img;
+  author.textContent = item.name;
+  job.textContent = item.job;
+  info.textContent = item.text;
 });
