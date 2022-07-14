@@ -17,7 +17,7 @@
 
 ## Introduction
 
-- To be written.
+The aim of this project is to display reviews of professionals in an interactive manner. One can switch between a select list of information for professionals by either click on forward or backward button. One can also show random profileby clicking on surprise me button.
 
 ## Out Of Scope
 
