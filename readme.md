@@ -17,11 +17,11 @@
 
 ## Introduction
 
-The aim of this project is to display reviews of professionals in an interactive manner. One can switch between a select list of information for professionals by either click on forward or backward button. One can also show random profileby clicking on surprise me button.
+The aim of this project is to display reviews of professionals in an interactive manner. One can switch between a select list of information for professionals by either click on forward or backward button. One can also show random profileby clicking on 'surprise me' button.
 
 ## Out Of Scope
 
-Since this is an beginner project in which the focus is just to learn the some basic javascript, testing is out of scope of this project. Similarly, continous delivery(either via Docker or github Pilot) is out of scope of this project.
+Since this is an beginner project in which the focus is just to learn the some basic javascript, testing is out of scope of this project. Similarly, continous delivery(either via Docker or github Pilot) is out of scope of this project. This project is another one in a series of beginner JS project in which the idea is to learn and gain hands-on experience in this technology. Hence, AJAX is also out of scope of this project.
 
 ## Project structure
 
