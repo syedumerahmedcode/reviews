@@ -180,6 +180,25 @@ const nextBtn = document.querySelector(".next-btn");
 const randomBtn = document.querySelector(".random-btn");
 ```
 
+In order to load initial data, we add **DOMContentLoaded** event on _window_ object. What is DOMContentLoaded? DOMContentLoaded event is fired when the initial HTML Document has been completely loaded and parsed. We listen for this event on the Window object. Inside this event listener, we call `function showPerson(person)` which basically takes the index of the person to show and fetches the values based of this index.
+
+```javascript
+// load initial data
+window.addEventListener("DOMContentLoaded", function () {
+  // console.log("Inisde the DOMContent loaded event.");
+  showPerson(currentItem);
+});
+
+// show person based on item
+function showPerson(person) {
+  const item = reviews[person];
+  img.src = item.img;
+  author.textContent = item.name;
+  job.textContent = item.job;
+  info.textContent = item.text;
+}
+```
+
 ## styles.css
 
 The css file consists of various sections such as `Fonts` , `Variables`, `Global Styles`, `Nav` and `Container`
