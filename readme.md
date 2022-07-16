@@ -53,6 +53,28 @@ The `<head>` tag contains the `<title>Starter</title>` as well as a `link` to th
 </head>
 ```
 
+The `<body>` tag contains the `<main>` which contains the `<section>` tag which in iitself contains _title_ and _review_ classes. First. let us have a look at the usage of _title_ class.
+
+The _title_ class contains the _heading_ as well us _underline_ class.
+
+```html
+<body>
+  <main>
+    <section class="container">
+      <!-- title -->
+      <div class="title">
+        <h2>Our reviews</h2>
+        <div class="underline"></div>
+      </div>
+      <!--review-->
+      <!-- previous and next buttons-->
+      <!-- random button -->
+    </section>
+  </main>
+  <!-- javascript -->
+</body>
+```
+
 ## app.js
 
 - To be written.
