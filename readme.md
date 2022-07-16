@@ -102,6 +102,31 @@ The **review** class is enclosed within an `<artice>` tag and it contains inform
 </body>
 ```
 
+Next up, we have **button-container** class with two buttons, namely _prev-btn_ and _next-btn_.These class names are used in the javascript files.
+
+```html
+<body>
+  <main>
+    <section class="container">
+      <!-- title -->
+      <!--review-->
+      <!-- previous and next buttons-->
+      <div class="button-container">
+            <button class="prev-btn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="next-btn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+      </div>
+      <!-- random button -->
+      </article>
+    </section>
+  </main>
+  <!-- javascript -->
+</body>
+```
+
 ## app.js
 
 - To be written.
