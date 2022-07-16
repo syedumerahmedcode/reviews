@@ -166,6 +166,20 @@ const reviews = [
 ];
 ```
 
+After that, we select items which include _img_, _author_, _job_ and _info_ as well as _prevBtn_, _nextBtn_ and \_\_randomBtn. Here, we set the starting item at index 0. This means that initially, the values defined in reviews[0] will be used.
+
+```javascript
+// select items
+const img = document.getElementById("person-img");
+const author = document.getElementById("author");
+const job = document.getElementById("job");
+const info = document.getElementById("info");
+
+const prevBtn = document.querySelector(".prev-btn");
+const nextBtn = document.querySelector(".next-btn");
+const randomBtn = document.querySelector(".random-btn");
+```
+
 ## styles.css
 
 The css file consists of various sections such as `Fonts` , `Variables`, `Global Styles`, `Nav` and `Container`
