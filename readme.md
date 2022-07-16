@@ -75,6 +75,33 @@ The **title** class contains the _heading_ as well us _underline_ class.
 </body>
 ```
 
+The **review** class is enclosed within an `<artice>` tag and it contains information about _image_, _author_, _job_ and _info_.
+
+```html
+<body>
+  <main>
+    <section class="container">
+      <!-- title -->
+      <!--review-->
+      <article class="review">
+        <div class="img-container">
+          <img src="./person-1.jpeg" id="person-img" alt="" />
+        </div>
+        <h4 id="author">Sara jones</h4>
+        <p id="job">ux designer</p>
+        <p id="info">
+          Some extremely long and boring text detailing the info about this
+          person.
+        </p>
+        <!-- previous and next buttons-->
+        <!-- random button -->
+      </article>
+    </section>
+  </main>
+  <!-- javascript -->
+</body>
+```
+
 ## app.js
 
 - To be written.
