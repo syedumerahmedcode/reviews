@@ -102,7 +102,7 @@ The **review** class is enclosed within an `<artice>` tag and it contains inform
 </body>
 ```
 
-Next up, we have **button-container** class with two buttons, namely _prev-btn_ and _next-btn_.These class names are used in the javascript files.
+Next up, we have **button-container** class with two buttons, namely _prev-btn_ and _next-btn_.These class names are used in the javascript files. Finally, we have _random-btn_ with the text 'suprose me' which will display a profile at random.
 
 ```html
 <body>
@@ -120,6 +120,7 @@ Next up, we have **button-container** class with two buttons, namely _prev-btn_ 
             </button>
       </div>
       <!-- random button -->
+      <button class="random-btn">surprise me</button>
       </article>
     </section>
   </main>
