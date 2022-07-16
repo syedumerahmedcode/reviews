@@ -233,6 +233,19 @@ prevBtn.addEventListener("click", function () {
 });
 ```
 
+Liekwise, for showing a random person, an event listerner is created which listen on _click_ event. Here:
+
+- current item is determined using `Math.random()` function.
+- `showPerson()` is called with the counter value.
+
+```javascript
+// show random person
+randomBtn.addEventListener("click", function () {
+  currentItem = Math.floor(Math.random() * reviews.length);
+  showPerson(currentItem);
+});
+```
+
 ## styles.css
 
 The css file consists of various sections such as `Fonts` , `Variables`, `Global Styles`, `Nav` and `Container`
