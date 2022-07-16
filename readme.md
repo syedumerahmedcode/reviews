@@ -199,6 +199,40 @@ function showPerson(person) {
 }
 ```
 
+For showing next person, an event listerner is created which listen on _click_ event. Here:
+
+- current item counter is incremented.
+- If the conuter's value is more than max number allowed, it is reset to zero.
+- `showPerson()` is called with the counter value.
+
+```javascript
+// show next person
+nextBtn.addEventListener("click", function () {
+  currentItem++;
+  if (currentItem > reviews.length - 1) {
+    currentItem = 0;
+  }
+  showPerson(currentItem);
+});
+```
+
+Similarly, for showing previous person, an event listerner is created which listen on _click_ event. Here:
+
+- current item counter is decremented.
+- If the conuter's value is less than zero, it is reset to max number allowed.
+- `showPerson()` is called with the counter value.
+
+```javascript
+// show previous person
+prevBtn.addEventListener("click", function () {
+  currentItem--;
+  if (currentItem < 0) {
+    currentItem = reviews.length - 1;
+  }
+  showPerson(currentItem);
+});
+```
+
 ## styles.css
 
 The css file consists of various sections such as `Fonts` , `Variables`, `Global Styles`, `Nav` and `Container`
