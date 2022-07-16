@@ -75,7 +75,7 @@ The **title** class contains the _heading_ as well us _underline_ class.
 </body>
 ```
 
-The **review** class is enclosed within an `<artice>` tag and it contains information about _image_, _author_, _job_ and _info_.
+The **review** class is enclosed within an `<artice>` tag and it contains information about _image_, _author_, _job_ and _info_. Initially, they are populated with default values which will be displayed on page load.
 
 ```html
 <body>
